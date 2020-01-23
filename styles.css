@@ -1,0 +1,65 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.ui-container {
+    border: 2px solid blue;
+    background-color: yellow;
+    font-family: Arial, Helvetica;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.table-container {
+    border: 2px solid blue;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form {
+    width: 90%;
+    margin-left: 5rem;
+}
+
+.form-div {
+    margin: 5px;
+    
+}
+
+input, select {
+    height: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+}
+
+button {
+    margin: 1rem;
+    min-width: 8rem;
+    min-height: 3rem;
+    border: none;
+    font-size: large;
+}
+
+.button-generate {
+    background-color: rgb(39, 146, 39);
+}
+
+.button-code {
+    background-color: lightgrey;
+}
