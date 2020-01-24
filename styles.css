@@ -2,14 +2,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .ui-container {
-    border: 2px solid blue;
     background-color: yellow;
     font-family: Arial, Helvetica;
-    
+    border: 2px solid grey;
 }
 
 .button-container {
@@ -18,7 +16,8 @@
 }
 
 .table-container {
-    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
 }
 
 form {
